@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns:wicket="http://wicket.apache.org">
+<head>
+<meta charset="utf-8" />
+<title>Apache Wicket Quickstart</title>
+<link
+	href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:regular,bold'
+	rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="style.css" type="text/css" media="screen"
+	title="Stylesheet" />
+</head>
+<body>
+
+
+
+
+
+
+
+
+	<h1>Herzlich Willkommen!</h1>
+	<br>
+	<br>
+	<p>
+		<a wicket:id="anotherLinkToAnchor" href="#anotherAnchor">Another
+			anchor link, this time using href attribute's value</a>
+	</p>
+
+	<!--1 Hello World -->
+	<h1>Hello World:</h1>
+	<div align="center">
+		<p wicket:id="helloworld">My name is hello world</p>
+	</div>
+
+
+
+
+	<h1>Feedback message:</h1>
+	<!--2 Erste Form, reply message -->
+	<div align="center">
+		<form wicket:id="form1">
+			<input type="submit"
+				value="click me to submit the form and display a message" />
+		</form>
+		<span wicket:id="feedback1">feedbackmessages will be put here</span>
+	</div>
+	<br>
+	<br>
+
+
+
+
+	<h1>Display the input:</h1>
+	<!-- 3 display the given input -->
+	<div align="center">
+		<form wicket:id="form2">
+			<input type="text" wicket:id="msgInput" value="" size="50" /> <input
+				type="submit" value="set message" />
+		</form>
+		<span wicket:id="msg" id="msg">Message goes here</span> <br>
+		<p>if input contains 'hi'</p>
+	</div>
+
+
+
+
+	<h1>Popups:</h1>
+	<!-- 4  Pop-Up (Link and Button)-->
+	<div align="center">
+		<p>
+			<a wicket:id="popupLink">Click this link for a popup</a>
+		</p>
+		<p>
+			<input type="submit" wicket:id="popupButtonLink"
+				value="Click this button for a popup" />
+		</p>
+	</div>
+
+
+
+
+
+
+	<h1>Link zu Google</h1>
+	<!-- 5  Link to Google-->
+	<div align="center">
+		<p>
+			<a wicket:id="google" href="#">[link text here]</a>
+		</p>
+		<h1>Dieser über ein Popup</h1>
+		<p>
+			<a wicket:id="googlePopup" href="#">[link text here]</a>
+		</p>
+	</div>
+
+
+
+
+
+	<h1>Modifying Tags</h1>
+	<!-- 6 Modifying Tag Attributes -->
+	<div wicket:id="container">
+		<p wicket:id="testlabel"></p>
+		<p wicket:id="testlabel1"></p>
+		<p wicket:id="testlabel2"></p>
+		<p wicket:id="testlabel3"></p>
+		<p wicket:id="testlabel4"></p>
+	</div>
+
+	<h1>Modifying Tags with self set color</h1>
+	<!-- 6a Modifying Tag Attributes mit if abfrage -->
+	<div align="center">
+		<form wicket:id="lenaForm">
+			<input type="text" wicket:id="lenaInput" value="" size="50" /> <input
+				type="submit" value="set personalized message" />
+
+		</form>
+		<span wicket:id="lenaMsg" id="lenaMsg">Message goes here</span> <br>
+
+		<p wicket:id="four"></p>
+		<p wicket:id="three"></p>
+
+	</div>
+
+
+
+
+
+
+
+	<h1>kritisch Download Button</h1>
+	<!-- 7:  Download-Button -->
+	<div align="center">
+		<p>
+			<a wicket:id="downloadLink">Download button</a>
+		</p>
+	</div>
+
+
+
+	<p align="center">################################################################################################################</p>
+
+
+
+
+	<h1>Redirect to the inputs' url</h1>
+	<!-- 8 redirect to the input url -->
+	<div align="center">
+		<p>
+		<form wicket:id="redirectForm">
+			<input wicket:id="redirectUrl" type="text" size="50" /><input
+				type="submit" value="go" />
+		</form>
+		</p>
+		<p>
+		<form wicket:id="redirectForm1">
+			<input wicket:id="redirectUrl" type="text" size="50" /><input
+				type="submit" value="go" />
+		</form>
+		</p>
+		<p>
+		<form wicket:id="redirectForm2">
+			<input wicket:id="redirectUrl" type="text" size="50" /><input
+				type="submit" value="go" />
+		</form>
+		</p>
+		<p>
+		<form wicket:id="redirectForm3">
+			<input wicket:id="redirectUrl" type="text" size="50" /><input
+				type="submit" value="go" />
+		</form>
+		</p>
+	</div>
+
+
+
+
+
+
+
+	<!-- 9 ist ganz unten wegen Label link -->
+
+
+
+
+
+
+
+
+	<h1></h1>
+	<!-- 10 clicked button x times -->
+	<p align="center">
+		<input type="button" wicket:id="actionOnClickLink" value="click me" />
+		Button link clicked <span wicket:id="onClickLinkClickCount">0</span>
+		times <input type="button" wicket:id="clickReset" value="reset" />
+	</p>
+
+
+
+	<!-- 	<h1>Feedback</h1>
+	<div align="center">
+		<p>warum
+			<span wicket:id="feedback" />
+		</p>
+	</div> -->
+
+
+
+
+	<h1>Rouven</h1>
+	<div align="center">
+		<p wicket:id="rouven">Rouven</p>
+	</div>
+
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	<h1>Link with label</h1>
+	<!--9 Link with Label? -->
+	<div align="center">
+		<p>
+		<div wicket:id="anchorLabel">[label for anchor]</div>
+		</p>
+	</div>
+</body>
+</html>
+
+
