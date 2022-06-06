@@ -26,3 +26,4 @@ Für die Benutzung von Apache Wicket wird Maven benötigt, das unter https://mav
 # Projektstart
 ## Wicket Projekt erstellen
 Um ein Projekt zu erstellen, muss unter https://wicket.apache.org/start/quickstart.html die Quickstart Schritte durchgeführt werden.
+Anschließend muss das Projekt in der entsprechenden IDE importiert werden. Nun kann man mit dem Programmieren beginnen.
