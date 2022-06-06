@@ -21,4 +21,8 @@ JAVA programmieren kann, da der JAVA Anteil am größten ist. Es sollte notallfs
 Ich benutze in meiner Präsentation Eclipse. Es kann aber auch IntelliJ oder Visual Studio Code verwendet werden.
 
 ## Build-Tools / Frameworks
-Für die Benutzung von Apache Wicket wird Maven benötigt, das unter https://maven.apache.org/download.cgi heruntergeladen werden kann.
+Für die Benutzung von Apache Wicket wird Maven benötigt, das unter https://maven.apache.org/download.cgi heruntergeladen und installiert werden kann.
+
+# Projektstart
+## Wicket Projekt erstellen
+Um ein Projekt zu erstellen, muss unter https://wicket.apache.org/start/quickstart.html die Quickstart Schritte durchgeführt werden.
