@@ -7,13 +7,6 @@ und die Darstellung in HTML zu trennen.
 
 
 
-## Verwendung
-- Multiplatform Mobile (Android und iOS apps)
-- Server-side 
-- Web Frontend
-- Data Science
-
-
 # Einrichtung
 ## IDE 
 Es gibt viele mögliche IDEs, die man für ein Apache Wicket Projekt verwenden kann. Am besten eignen sich IDEs, mit denen man gut 
