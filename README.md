@@ -1,5 +1,3 @@
-# SE_E-Portfolio
-
 # Apache Wicket
 ## Was ist Apache Wicket ?
 Wicket ist ein komponentenorientiertes Webframework. Es existiert seit 2004 und ist seit 2007 ein Apache-Projekt. 
